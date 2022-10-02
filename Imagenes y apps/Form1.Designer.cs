@@ -65,6 +65,7 @@
             this.button2.TabIndex = 3;
             this.button2.Text = "Elegir IMG";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // linkLabel1
             // 
@@ -97,6 +98,7 @@
             this.linkLabel3.TabIndex = 7;
             this.linkLabel3.TabStop = true;
             this.linkLabel3.Text = "Abrir disco :C";
+            this.linkLabel3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked);
             // 
             // openFileDialog1
             // 
